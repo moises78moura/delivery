@@ -1,9 +1,9 @@
 server:
-  port:9000
+  port: 9090
 
 spring:
   cloud:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/moises78moura/delivery-configs
